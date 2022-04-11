@@ -15,7 +15,7 @@ class RepositoryTest {
     private Smartphone third = new Smartphone(3, "8800 Sirocco Edition", 10000, "Nokia");
 
     @Test
-    void removeById() {
+    void shouldRemoveById() {
         repository.save(first);
         repository.save(second);
         repository.save(third);

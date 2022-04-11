@@ -17,7 +17,7 @@ class ProductManagerTest {
     private Smartphone third = new Smartphone(3, "8800 Sirocco Edition", 10000, "Nokia");
 
     @Test
-    void shouldAdd() {
+    void shouldAddNewProduct() {
         manager.add(first);
         manager.add(second);
         manager.add(third);
