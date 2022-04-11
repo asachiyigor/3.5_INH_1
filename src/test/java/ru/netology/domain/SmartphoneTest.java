@@ -8,12 +8,12 @@ class SmartphoneTest {
     private Smartphone first = new Smartphone(1, "8800", 10000, "Nokia");
 
     @Test
-    void matchesTrue() {
+    void shouldMatchesTrue() {
         assertTrue(first.matches("8800"));
     }
 
     @Test
-    void matchesFalse() {
+    void shouldMatchesFalse() {
         assertTrue(first.matches("Nokia"));
     }
 }

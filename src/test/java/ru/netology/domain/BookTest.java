@@ -9,12 +9,12 @@ class BookTest {
     private Book first = new Book(1, "Alice in Wonderland", 500, "Lewis Carroll");
 
     @Test
-    void matchesTrue() {
+    void shouldMatchesTrue() {
         assertTrue(first.matches("Alice in Wonderland"));
     }
 
     @Test
-    void matchesFalse() {
+    void shouldMatchesFalse() {
         assertFalse(first.matches("Kukushkin"));
     }
 }

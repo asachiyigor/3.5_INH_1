@@ -8,7 +8,7 @@ class ProductTest {
     private Product first = new Product(1, "Pen", 1000);
 
     @Test
-    void matchesTrue() {
+    void shouldMatchesTrue() {
         assertTrue(first.matches("Pen"));
     }
 }
